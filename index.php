@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-
+<?php 
+    session_start();
+    require "cfg/config.php"; 
+?>
 <html lang="en" dir="ltr">
 
 <head>
@@ -17,7 +20,6 @@
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#description">Description</a></li>
                 <li><a href="#images">Image</a></li>
-                <li><a href="#">TO BE FOUND</a></li>
             </ul>
         </nav>
     </header>
